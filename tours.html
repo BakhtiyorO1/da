@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourist Info Center</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="website icon" type="png" href="./logo1.png">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid px-4" style="position: relative;">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./logo1.png" alt="Logo" />
+        <div>
+          <strong>Tourist</strong>
+          <em>Information Center</em>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item"><a class="nav-link" href="./samarkand.html" data-popup-id="popup-samarkand">Samarkand</a></li>
+          <li class="nav-item"><a class="nav-link" href="./service.html" data-popup-id="popup-service">Our Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="./transport.html" data-popup-id="popup-transport">Transport</a></li>
+          <li class="nav-item"><a class="nav-link" href="./foods.html" data-popup-id="popup-food">Food and Drinks</a></li>
+          <li class="nav-item"><a class="nav-link" href="./tours.html" data-popup-id="popup-tours">Tours</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contacts.html" data-popup-id="popup-contacts">Contacts</a></li>
+          <li class="nav-item"><a class="nav-link" href="./aboutus.html" data-popup-id="popup-about">About Us</a></li>
+        </ul>
+      </div>
+
+      <select class="form-select form-select-sm language-select" aria-label="Select Language">
+        <option value="en" selected>English</option>
+        <option value="ru">Русский</option>
+      </select>
+
+      <!-- Всплывающие окна -->
+      <div id="popup-service" class="popup-below-nav">
+        <ul class="sevice-ul">
+          <li class="sevice-ul-li"><a href="#">Post card</a></li>
+          <li class="sevice-ul-li"><a href="#">Free map</a></li>
+          <!-- <li class="sevice-ul-li"><a href="#">Restaurant info</a></li> -->
+          <li class="sevice-ul-li"><a href="#">Travel info</a></li>
+          <li class="sevice-ul-li"><a href="#">Train ticket</a></li>
+          <li class="sevice-ul-li"><a href="#">Guide service</a></li>
+          <li class="sevice-ul-li"><a href="#">Home stay</a></li>
+          <li class="sevice-ul-li"><a href="#">Mini liberary</a></li>
+          <!-- <li class="sevice-ul-li"><a href="#">Unique souvenir</a></li> -->
+          <!-- <li class="sevice-ul-li"><a href="#">National costume rent</a></li> -->
+          <li class="sevice-ul-li"><a href="#">Samarkand footboll uniform</a></li>
+        </ul>
+      </div>
+
+      <div id="popup-transport" class="popup-below-nav">Transport: taxi, bus, rental</div>
+      <div id="popup-food" class="popup-below-nav">Food: plov, samsa, shashlik</div>
+      <div id="popup-tours" class="popup-below-nav">Explore historical tours</div>
+      <div id="popup-contacts" class="popup-below-nav">Call or email us anytime</div>
+      <div id="popup-about" class="popup-below-nav">We are local travel experts</div>
+      <!-- <div id="popup-samarkand" class="popup-below-nav">Samarkand: ancient city tour</div> -->
+    </div>
+  </nav>
+
+<header>
+    <h1>Tours</h1>
+    <ul>
+        <li><a href="#">Mini tour</a></li>
+        <li><a href="#">Half day</a></li>
+        <li><a href="#">One day</a></li>
+        <li><a href="#">Multy days</a></li>
+    </ul>
+</header>
+
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>

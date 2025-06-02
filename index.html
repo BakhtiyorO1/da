@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourist Info Center</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="website icon" type="png" href="./logo1.png">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid px-4" style="position: relative;">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./logo1.png" alt="Logo" />
+        <div>
+          <strong>Tourist</strong>
+          <em>Information Center</em>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item"><a class="nav-link" href="./samarkand.html" data-popup-id="popup-samarkand">Samarkand</a></li>
+          <li class="nav-item"><a class="nav-link" href="./service.html" data-popup-id="popup-service">Our Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="./transport.html" data-popup-id="popup-transport">Transport</a></li>
+          <li class="nav-item"><a class="nav-link" href="./foods.html" data-popup-id="popup-food">Food and Drinks</a></li>
+          <li class="nav-item"><a class="nav-link" href="./tours.html" data-popup-id="popup-tours">Tours</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contacts.html" data-popup-id="popup-contacts">Contacts</a></li>
+          <li class="nav-item"><a class="nav-link" href="./aboutus.html" data-popup-id="popup-about">About Us</a></li>
+        </ul>
+      </div>
+
+      <select class="form-select form-select-sm language-select" aria-label="Select Language">
+        <option value="en" selected>English</option>
+        <option value="ru">Русский</option>
+      </select>
+
+      <!-- Всплывающие окна -->
+      <div id="popup-service" class="popup-below-nav">
+        <ul class="sevice-ul">
+          <li class="sevice-ul-li"><a href="#">Post card</a></li>
+          <li class="sevice-ul-li"><a href="#">Free map</a></li>
+          <!-- <li class="sevice-ul-li"><a href="#">Restaurant info</a></li> -->
+          <li class="sevice-ul-li"><a href="#">Travel info</a></li>
+          <li class="sevice-ul-li"><a href="#">Train ticket</a></li>
+          <li class="sevice-ul-li"><a href="#">Guide service</a></li>
+          <li class="sevice-ul-li"><a href="#">Home stay</a></li>
+          <li class="sevice-ul-li"><a href="#">Mini liberary</a></li>
+          <!-- <li class="sevice-ul-li"><a href="#">Unique souvenir</a></li> -->
+          <!-- <li class="sevice-ul-li"><a href="#">National costume rent</a></li> -->
+          <li class="sevice-ul-li"><a href="#">Samarkand footboll uniform</a></li>
+        </ul>
+      </div>
+
+      <div id="popup-transport" class="popup-below-nav">Transport: taxi, bus, rental</div>
+      <div id="popup-food" class="popup-below-nav">Food: plov, samsa, shashlik</div>
+      <div id="popup-tours" class="popup-below-nav">Explore historical tours</div>
+      <div id="popup-contacts" class="popup-below-nav">Call or email us anytime</div>
+      <div id="popup-about" class="popup-below-nav">We are local travel experts</div>
+      <!-- <div id="popup-samarkand" class="popup-below-nav">Samarkand: ancient city tour</div> -->
+    </div>
+  </nav>
+
+  <header class="header-index">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-7 border border-2" style="text-align: left;">
+          <br>  
+          <div style="width: 100%;height: 50px;display: flex;justify-content: center;">
+              <h2>Samarkand</h2>
+            </div>
+            <div class="saminfo-home">
+              <p>Samarkand is one of the world's oldest
+                 and most beautiful cities, located in
+                 southeastern Uzbekistan. With a history
+                 of over 2,500 years, it was once a key
+                 stop along the famous Silk Road, where
+                 traders, scholars, and travelers from
+                 many cultures met and exchanged goods
+                 and ideas.
+                 The city reached its golden age in the
+                 14th century under Amir Temur
+                 (Tamerlane), who made Samarkand the
+                 capital of his empire. He transformed it
+                 into a vibrant center of architecture
+                 science, and art.
+                 In 2001, Samarkand's historic center was
+                 recognized as a UNESCO World Heritage
+                 Site, known as "Samarkand - Crossroad
+                 of Cultures.'
+                 When you're walking through its
+                 ancient streets, tasting traditional Uzbek food, or shopping in the local bazaars, Samarkand offers a magical journey into the past with the comfort of modern hospitality.
+                 Come explore Samarkand - a city where history lives and legends come to life!</p>
+            </div>
+        </div>
+        <div class="col-sm-3 ">
+          <div class="colsm-right" style="margin-top: 0;height: 50px;display: flex; align-items: center;justify-content: center;">
+              <p style="margin: 0;">there is a great demand for:</p>
+          </div>
+          <div class="colsm-right">
+            <div>
+              <img src="./free.jpg" alt="" class="colsm-right-img">
+              <p>Old hammam</p>
+              <p>price:20$</p>
+            </div>  
+          </div>
+          <div class="colsm-right">
+            <div>
+              <img src="./free.jpg" alt="" class="colsm-right-img">
+              <p>Cooking class</p>
+              <p>from:15$</p>
+            </div> 
+          </div>
+          <div class="colsm-right">
+            <div>
+              <img src="./free.jpg" alt="" class="colsm-right-img">
+              <p>Tajikistan tour</p>
+            </div> 
+          </div>
+          <div class="colsm-right">
+            <div>
+              <img src="./free.jpg" alt="" class="colsm-right-img">
+              <p>standart walking</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>
